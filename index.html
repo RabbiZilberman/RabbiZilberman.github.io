@@ -24,13 +24,38 @@
  <h1 class="center">✡️СОВЕРШЕННО СЕКРЕТНО. НЕ РАСПРОСТРАНЯТЬ✡️</h1>
 <a href="https://github.com/RabbiZilberman/RabbiZilberman.github.io/blob/main/Protocols2.pdf" target="_blank"><img src="title.png" alt="Paris"></a>
 </body>
-<style>
-body {
-  background-image: url('https://wallpaperaccess.com/full/2078141.jpg');
-}
+ <style>
+        body {
+            background-image: url('https://wallpaperaccess.com/full/2078141.jpg');
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center content horizontally */
+            justify-content: center; /* Center content vertically */
+            height: 100vh; /* Full viewport height */
+            margin: 0; /* Remove default margin */
+        }
+        
+        h1 {
+            color: red;
+            text-align: center; /* Center text */
+        }
+        
+        img {
+            width: 200px; /* Set image width */
+            height: auto; /* Maintain aspect ratio */
+            border: 2px solid #ddd; /* Add border */
+            border-radius: 10px; /* Rounded corners */
+            padding: 5px; /* Padding inside the border */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation for hover effect */
+        }
 
-h1 {
-  color: red;
-}
-
-</style>
+        img:hover {
+            transform: scale(1.05); /* Slightly enlarge the image on hover */
+            box-shadow: 0 0 10px rgba(0, 140, 186, 0.5); /* Add shadow on hover */
+        }
+        
+        .center {
+            text-align: center; /* Center text */
+        }
+    </style>
